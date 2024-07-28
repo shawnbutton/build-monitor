@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-import { Group, Project, Status } from './gitlabService'
+import type { Group, Project, Status } from './gitlabService';
 
 interface GLPipeline {
   id: string;

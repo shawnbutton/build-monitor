@@ -1,5 +1,5 @@
 import { compareDesc } from 'date-fns'
-import { getProjectForProjectPath, getProjectsForGroup } from '@/services/gitlabCaller'
+import { getProjectForProjectPath, getProjectsForGroup } from './gitlabCaller'
 
 export type Status = 'SUCCESS' | 'FAILED' | 'SKIPPED' | 'RUNNING';
 

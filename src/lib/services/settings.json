@@ -1,0 +1,10 @@
+{
+  "groupPaths": [
+    "shawnbutton/gitlab-build-monitor",
+    "shawnbutton/gunkhole",
+    "shawnbuttontest"
+  ],
+  "gitlabUrl": "https://gitlab.com",
+  "gitlabKey": "glpat-ByysSTrb2CyyJuStqKpH",
+  "ignored": []
+}
