@@ -4,14 +4,10 @@ import { getProjects } from '$lib/services/gitlabService';
 
 export async function load() {
 
-
-	const groups = await getProjects(settings.gitlabUrl, settings.gitlabKey, settings.groupPaths)
-	console.log(JSON.stringify(groups))
+	const group = await getProjects(settings.gitlabUrl, settings.gitlabKey, settings.groupPaths)
+	console.log(JSON.stringify(group))
 
 	return {
-		buildResults: {
-			title: `Title goes here`,
-			content: `Content goes here`
-		}
+		group
 	};
 }

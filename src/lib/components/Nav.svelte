@@ -20,7 +20,7 @@
 
 <div class="navbar bg-base-100">
 	<div class="flex-1">
-		<a href="/" class="btn btn-ghost text-xl">Monte Carlo Forecaster</a>
+		<a href="/" class="btn btn-ghost text-xl">Gitlab Build Monitor</a>
 	</div>
 	<div class="flex-none">
 		<button aria-label="toggle theme" on:click={toggle_theme}>
